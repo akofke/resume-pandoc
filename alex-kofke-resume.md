@@ -13,8 +13,8 @@ right-column:
 
 # Summary
 
-I am a programmer, web developer, and student at the University at Buffalo. My greatest
-experience is with Java, Python, and Javascript/HTML/CSS, but I enjoy constantly learning
+I am a programmer, web developer, and student at the University at Buffalo. My most extensive
+experience is with Java, Python, and Javascript/HTML/CSS, but I enjoy continually learning
 new languages and technologies. I take pride in writing robust, clean code that is
 well-documented and tested.
 
@@ -53,7 +53,7 @@ assembly (MIPS and x86), Node.js, Rust, Elixir, and \LaTeX.
 
 * Familiar with many **developer tools** such as git, vim, bash, IntelliJ, virtual machines, and Linux systems.
 
-* Have experience with some common **developer services** such as GitHub, Heroku, GitHub Pages,
+* Experienced in some common **developer services** such as GitHub, Heroku, GitHub Pages,
   Slack, Continuous Integration (Travis), domain name management (Namecheap).
 
 # Experience
@@ -68,9 +68,9 @@ January 2017 - Present
         inter-project and external dependencies managed by Gradle. 
     * Organize tests and set up continuous integration testing with Travis.
 
-* Teach and advise group of chemical engineering students on software development best practices for use with Etomica, such as documentation, unit tests, using git for version control, and additional git and GitHub concepts like branching, pull requests, and issues.
+* Teach and advise group of chemical engineering graduate students on software development best practices for use with Etomica, such as documentation, unit tests, version control with git, and additional git and GitHub concepts like branching, pull requests, and issues.
 
-* Add functionality for importing from common simulation file formats such as Gromacs by parsing the files into a common format with a third-party Python program, and serializing the format to Java with JSON and the Jackson library.
+* Add functionality for importing from common molecular simulation file formats such as Gromacs by parsing the files into a common format with a third-party Python program, and serializing the format to Java with JSON and the Jackson library.
 
 * Create prototype for viewing simulations remotely in a web browser using WebSockets and the THREE.js WebGL library. 
 
