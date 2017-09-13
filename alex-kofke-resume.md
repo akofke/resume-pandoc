@@ -1,5 +1,5 @@
 ---
-fontsize: 12pt
+fontsize: 10pt
 name: Alexander Kofke
 left-column:
   - 'Programmer'
@@ -22,15 +22,10 @@ well-documented and tested.
 
 ## Java
 * Write modern and understandable Java code using appropriate design patterns and best
-practices.
+practices. Recognize the importance of writing unit tests to validate correctness and catch regressions, and Javadoc for communicating the use of classes and methods.
 
 * Organize and understand large multi-project codebases, creating build environments
 using Gradle, Maven, or Ant.
-
-* Recognize the importance of writing unit tests to validate correctness and catch regressions, and Javadoc for communicating the use of classes and methods.
-
-* Research and use third-party or Java libraries when needed to find the right tool to solve
-a problem.
 
 ## Python
 * Use python to write quick scripts, larger applications, and web servers.
@@ -42,21 +37,29 @@ a problem.
 
 * Use a variety of frontend tools and frameworks such as JQuery, React, ES6, Bootstrap,
 THREE.js, and Webpack.
-
+<!-- 
 * Use web frameworks such as Flask, Ruby on Rails, Express, and Spark Java, or static site generators
-such as Jekyll.
+such as Jekyll. -->
 
 ## Miscellaneous
 
-* Varying experience with **other languages and frameworks** such as Ruby, C,
+* Varying experience with **other languages and frameworks** such as Ruby, C, C++,
 assembly (MIPS and x86), Node.js, Rust, Elixir, and \LaTeX.
 
-* Familiar with many **developer tools** such as git, vim, bash, IntelliJ, virtual machines, and Linux systems.
-
-* Experienced in some common **developer services** such as GitHub, Heroku, GitHub Pages,
-  Slack, Continuous Integration (Travis), domain name management (Namecheap).
+* Familiar with many **developer tools and services** such as git, vim, bash, IntelliJ, virtual machines, Linux systems,
+GitHub, Heroku, and Continuous Integration (Travis).
 
 # Experience
+
+## **Center for Computational Research** - Internship (Paid)
+
+May - August 2017
+
+* Work with a senior researcher on developing tools for analyzing supercomputer job performance - [ubccr/SUPReMM](https://github.com/ubccr/supremm)
+
+* Create a Python library for detecting and classifying periodic data, based on an algorithm described in a paper - [akofke/autoperiod](https://github.com/akofke/autoperiod)
+
+* Use Python, MongoDB, and MySQL for data processing and visualization.
 
 ## **Etomica** - Java Molecular Simulation Framework - [github.com/etomica](https://github.com/etomica)
 
@@ -66,13 +69,14 @@ January 2017 - Present
     * Migration of source code from CVS to git while keeping entire project history.
     * Conversion of ad-hoc manual build instructions into organized single repository with build system,
         inter-project and external dependencies managed by Gradle. 
-    * Organize tests and set up continuous integration testing with Travis.
+    * Organize tests and set up continuous integration.
+    * Ongoing refactoring and modernization of codebase.
+  
+* Develop web application frontend with Typescript, React, and WebGL for interactive viewing of simulations, along with Java server REST interface for Etomica.
 
-* Teach and advise group of chemical engineering graduate students on software development best practices for use with Etomica, such as documentation, unit tests, version control with git, and additional git and GitHub concepts like branching, pull requests, and issues.
+* Teach and advise group of chemical engineering graduate students on software development best practices for use with Etomica, such as documentation, unit tests, version control with git and GitHub (branching, pull requests, issues), and Java coding patterns.
 
-* Add functionality for importing from common molecular simulation file formats such as Gromacs by parsing the files into a common format with a third-party Python program, and serializing the format to Java with JSON and the Jackson library.
-
-* Create prototype for viewing simulations remotely in a web browser using WebSockets and the THREE.js WebGL library. 
+* Add functionality for importing and converting from common molecular simulation file formats.
 
 ## **Tri-County Rugby** - [tricountyrugby.org](https://www.tricountyrugby.org)
 
@@ -96,15 +100,16 @@ Fractal Generator and Viewer:
 
 myhttpd:
 
-: CSE421 Operating Systems, Summer 2016. Very basic multithreaded http server in C. [github.com/akofke/myhttpd](https://github.com/akofke/myhttpd)
+: CSE421 Operating Systems, Summer 2016. Very basic multithreaded http server in C. 
+[akofke/myhttpd](https://github.com/akofke/myhttpd)
 
 Online Store Price Scraper:
 
-: STAT312 Statistics for Eng and Science, Fall 2014. Python program for use in statistics final report that scrapes price data from
-two online store websites using the BeautifulSoup library and compares similar products using fuzzy string matching. [github.com/akofke/online_store_comparison](https://github.com/akofke/online_store_comparison)
+: STAT312 Statistics for Eng and Science, Fall 2014. Python program that scrapes price data from
+two online store websites and compares similar products using fuzzy string matching. [akofke/online_store_comparison](https://github.com/akofke/online_store_comparison)
 
 Arrowlang Compiler:
 
-: EECS337 Compiler Design, Fall 2014. Pair project, basic compiler in Python for a toy language. [github.com/akofke/arrowc](https://github.com/akofke/arrowc)
+: EECS337 Compiler Design, Fall 2014. Pair project, basic compiler in Python for a toy language. [akofke/arrowc](https://github.com/akofke/arrowc)
 
 
